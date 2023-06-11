@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+  }
+  
+  /* Background Styles */
+  .bg1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/pict/ImageBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-violet {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(42, 38, 61, 0.82);
+  }
+  
+  /* Container Styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Icon Styles */
+  .icon {
+    width: 165px;
+    height: 165px;
+    left: 564px;
+    top: 44px;
+  }
+  
+  /* Heading Styles */
+  .better,
+  .travel {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  
+  .travel {
+    color: #fcb371;
+  }
+  
+  /* Text Styles */
+  .cheap {
+    color: #ffffff;
+    margin-bottom: 59px;
+    font-family: none;
+  }
+  
+  .about,
+  .reser {
+    font-size: 12px;
+    border-radius: 6px;
+    margin-left: 6.5px;
+    padding: 12px 53px 13px;
+  }
+  
+  .about {
+    color: #fcb371;
+    border: 2px solid #fcb371;
+  }
+  
+  .reser {
+    color: #ffffff;
+    background-color: #fcb371;
+  }
+  
+  /* Button Wrap Styles */
+  .button-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Link Styles */
+  .about a {
+    color: #fcb371;
+    text-decoration: none;
+  }
+  
+  .reser a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Front Styles */
+  .front {
+    z-index: 99;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+  
+    .better,
+    .travel {
+      font-size: 36px;
+    }
+  
+    .cheap {
+      margin-bottom: 30px;
+    }
+  
+    .about,
+    .reser {
+      font-size: 10px;
+      padding: 10px 40px 11px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+  
+    .better,
+    .travel {
+      font-size: 42px;
+    }
+  
+    .cheap {
+      margin-bottom: 45px;
+    }
+  
+    .about,
+    .reser {
+      font-size: 12px;
+      padding: 12px 50px 13px;
+    }
+  
+  }
